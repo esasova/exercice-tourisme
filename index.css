@@ -1,0 +1,18 @@
+.imageB {
+    height: 70vh;
+    background-image: url(sea.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: bold;
+}
+#lead-text {
+    font-weight: bold;
+}
+#reve {
+    color: yellow;
+    font-size: 200%;
+}
+#info {
+    font-weight: bold;
+}
