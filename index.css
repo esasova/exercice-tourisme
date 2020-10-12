@@ -59,3 +59,22 @@ body {
     display: flex;
     flex-direction: row-reverse;
 }
+.contact {
+    background-color: grey;
+    color: whitesmoke;
+}
+.contact p {
+    width: 50%;
+    text-align: center;
+    font-size: 200%;
+    font-weight: bold;
+}
+.contact p span {
+    font-weight: bolder;
+    color:  #c7cf00;
+}
+.footer {
+    color: whitesmoke;
+    height: 15vh;
+    padding-top: 3%;
+}
