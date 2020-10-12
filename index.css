@@ -1,3 +1,6 @@
+body {
+    background-color:#EEEEEE;
+}
 .imageB {
     height: 70vh;
     background-image: url(sea.jpg);
@@ -10,12 +13,49 @@
     font-weight: bold;
 }
 #reve {
-    color: yellow;
+    color: #c7cf00;
     font-size: 200%;
 }
 #info {
     font-weight: bold;
 }
-.offers {
-    width: 60vh;
+.price {
+    font-weight: bold;
+    color: #c7cf00;
+}
+.elena {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.info {
+    height: 30%;
+    color: whitesmoke;
+    font-size: 200%;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    margin: 2%;
+    padding: 2%;
+}
+.nom {
+    font-weight: bold;
+    color:  #c7cf00;
+    font-size: 120%;
+}
+.post {
+    font-style: italic;
+}
+.qui {
+    width: 12%;
+}
+.quoi {
+    font-size: 120%;
+    margin-left: 1%;
+}
+.cards-reverse {
+    display: flex;
+    flex-direction: row-reverse;
 }
