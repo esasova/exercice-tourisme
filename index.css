@@ -1,11 +1,11 @@
 body {
     background-color:#EEEEEE;
+    font-family: 'Montserrat', sans-serif;
 }
 .imageB {
-    height: 70vh;
-    background-image: url(sea.jpg);
+   
+    background: url(sea.jpg) no-repeat center center fixed;
     background-size: cover;
-    background-repeat: no-repeat;
     color: white;
     font-weight: bold;
 }
@@ -13,25 +13,38 @@ body {
     font-weight: bold;
 }
 #reve {
-    color: #c7cf00;
-    font-size: 200%;
+    color: #DB9918;
+    font-size: 300%;
+    font-weight: bold;
 }
 #info {
     font-weight: bold;
 }
-.price {
+p>span {
     font-weight: bold;
     color: #c7cf00;
+}
+h2>span {
+    font-weight: bold;
+    color: #c7cf00;
+}
+#pub {
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 3%;
 }
 .elena {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
+
+}
 .info {
     height: 30%;
     color: whitesmoke;
-    font-size: 200%;
+    font-size: 150%;
 }
 .cards {
     display: flex;
@@ -42,7 +55,7 @@ body {
 }
 .nom {
     font-weight: bold;
-    color:  #c7cf00;
+    color: #c7cf00;
     font-size: 120%;
 }
 .post {
@@ -71,10 +84,21 @@ body {
 }
 .contact p span {
     font-weight: bolder;
-    color:  #c7cf00;
+    color:  #DB9918;
 }
 .footer {
     color: whitesmoke;
     height: 15vh;
     padding-top: 3%;
+}
+.titres {
+    margin: 5%;
+}
+section {
+    margin-bottom: 3%;
+}
+#text-carte {
+    font-size: 120%;
+    text-align: justify;
+    color: whitesmoke;
 }
